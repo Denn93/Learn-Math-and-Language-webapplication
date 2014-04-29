@@ -1,0 +1,54 @@
+/*Main */
+
+body { font-size: 62.5%; margin: 0; padding: 0; background: transparent url('../images/bg.png') top left repeat; font-family: 'lucida grande', arial, tahoma, sans-serif; }
+#container { margin: 0 auto; width: 683px; position: relative; background: transparent url('../images/containerbg.png') top left repeat-y; }
+#header { margin: 0 auto; width: 640px; height: 96px; background: transparent url('../images/header.jpg') top left no-repeat; }
+.headtitle { position: relative; font-family: 'lucida grande', arial, tahoma, sans-serif; font-size: 30px; color: #FFF; top: 8px; left: 12px; }
+
+h1 { margin: 0; font-weight: normal; color: #d8f7af; font-size: 3.2em; }
+h2 { margin: 0; display: inline; position: relative; top: -1.5em; left: 2em; font-size: 1.8em; font-weight: normal; color: #94c258; }
+h3 { margin: 0; font-size: 1.5em; font-weight: normal; color: #94C258; }
+
+/*Menu*/
+
+#menu { margin: 0 20px; height: 29px; background: #bbd75a !important; background: #b3d24e; padding: 5px 0; }
+#menu ul { margin: 0; padding: 7px; background: transparent url('../images/menuoff.png') top left repeat-x; height: 29px; }
+#menu ul li { list-style: none; display:    inline; }
+#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited { color: #767676; padding: 13px 7px 15px 7px; font-size: 1em; background: transparent url('../images/menuoff.png') center left repeat-x; 
+                                                                  font-family: 'lucida grande', arial, sans-serif; font-weight: bold; text-decoration: none; }
+#menu ul li a:hover { background: transparent url('../images/menuon.png') center left repeat-x; color: #FDFDFD; }
+
+#roundedheader { width: 640px; height: 18px; margin: 0 auto; background: transparent url('../images/belowheader.png') top left no-repeat; }
+
+/*Content*/
+
+#content { min-height: 390px; width: 640px; margin: 0 auto; background: transparent url('../images/contentbg.png') top left repeat-y; }
+#insidecontent { float: left; padding-left: 25px; width: 355px; }
+#insidecontent p { margin: 0; color: #767676; font-family: 'lucida grande', 'franklin gothic medium', sans-serif; font-size: 1.2em; line-height: 170%; }
+
+/*Sidebar*/
+
+#sidebar { padding: 0 10px 10px 10px; float: right; width: 200px; background: #f6f6f6; }
+#sidebar p { margin: 0; color: #565656; font-family: 'lucida grande', 'franklin gothic medium', sans-serif; font-size: 1em; line-height: 170%; }
+#sidebar a:link, #sidebar a:active, #sidebar a:visited { text-decoration: underline; color: #e36767; }
+#sidebar a:hover { text-decoration: none; }
+
+/*Footer*/
+
+#roundedfooter { width: 640px; height: 17px; margin: 0 auto; background: transparent url('../images/abovefooter.png') top left no-repeat; }
+#footer { margin: 0 auto; width: 641px; height: 39px; background: transparent url('../images/footer.png') top left repeat-x; }
+#footer span { display: block; position: relative; font-family: 'lucida grande', 'franklin gothic medium', sans-serif; font-size: 1.2em; padding: 10px; color: #565656; }
+
+/*Docent Beheer*/
+
+#div_questions { padding-top: 10px; }
+#div_questions table { width: 100%;  border: black solid 1px; border-spacing: 0px; border-collapse: collapse; }
+#div_questions table thead { background-color: #94c258; font-size: 13px; border-spacing: 0px; }
+#div_questions table tbody tr td { border: black solid 1px; border-collapse: collapse; }
+#div_questions table thead tr #rownumber { width: 25px; }
+#div_questions table thead tr #gameName { width: 75px; }
+#div_questions table thead tr #question { width: 75px; }
+#div_questions table thead tr #gameDifficulty { width: 50px; }
+
+#div_buttons { margin-top: 15px; text-align: center; border: black solid 1px; background: #94c258;} 
+#div_buttons a:link {text-decoration: none;}
